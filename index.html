@@ -1,0 +1,53 @@
+<!--  presseione ! + enter para abrir a estrutura básica automaticamente.-->
+<!--utilizamos na primeira linha do documento. Diz ao navegador que ela está lidando com arquivo html -->
+<!DOCTYPE html>
+<!--É a tag raiz do documento. Todos os elementos devem estar dentro dela e também informamos ao navegador qual é o idioma da página, através do atributo lang-->
+<html lang="pt-br">
+    <!--É uma tag que contém elementos que são lidos pelo navegador.-->
+<head>
+    <meta charset="UTF-8">
+    <!--tag que define o título na aba da página-->
+    <title>Harry Potter</title>
+    <!-- para adicionar o css no documento html-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--é dentro do body que colocamos o conteúdo visual do usuário, como: textos, imagens e vídeos-->
+<body>
+    <!--tag utilizada para cabeçalho da página ou parte da página-->
+    <header>
+        <!-- Não há tag de fechamento para o elemento img. O atributo scr é obrigatório ele guarda o caminho da imagem podendo ser do seu próprio site ou de outro lugar. No atributo alt mostra a descrição da imagem quando ela não existe mais ou não aparece. -->
+        <img src="harry.jpg" alt="ilustração do harry" class="photo">
+        <!--utilizados para marcar a importância dos títulos,sendo h1 o mais importante e o h6 o menos-->
+        <!--o id só pode ser utilizado uma só vez(elemento que não queremos que se repita).-->
+        <h1 id="title"> Harry James Potter, O único sobrevivente da Maldição da Morte</h1>
+    </header>
+    <section>
+        <header>
+            <!-- Utilizamos o class para alterar elemntos iguais e podemos repetir.-->
+            <h2 class="subtitle"> posts </h2>
+            
+        </header>
+        <!--é uma tag que representa um conteúdo independente de maior relevância dentro da página. ex: post de blog, noticia,bloco de comentários. Também pode conter paragráfos, imagens e cabeçalhos-->
+        <article class="post">
+            <header>
+                <h3 class="post_title">post #1</h3>
+                <img src="Hogwarts.jpg" alt="ilustração do castelo" class="post_image">
+            </header>
+            <!-- <p> representa parágrafo. É utilizado para textos maiores e ele suporta também imagens, códigos, vídeos e vários outros tipos de conteúdos.-->
+                <!--<a>representa hiperlink, é ele que interliga vários conteúdos e páginas na web. -->
+                    <!-- o href representa hyperlink para aonde sua âncora aponta,podendo ser outro site, e-mail e até mesmo um telefone. O telefone e o email precisam de prefixos mailto para e-mail e tel para telefone. -->
+                    <!--o target serve para abrir links em outra aba do navegador usando o valor blank.  -->
+                <p class="post_content">Harry James Potter nasceu em Godric Hollow em 31 de julho de 1980, mais conhecido como Harry Potter. Ele é um bruxo, filho único de Tiago Potter e Lílian Evans Potter, considerado um dos mais famosos bruxos dos tempos modernos e o aluno mais famoso da Escola de Magia e Bruxaria de Hogwarts. Ficou famoso por ter sido o único sobrevivente da Maldição da Morte, quando Lord Voldemort tentou assassiná-lo ainda bebê. Sua lembrança deste dia é uma cicatriz que ficou em sua testa, em formato de raio.
+
+                Harry teve uma infância difícil, pois perdeu os pais ainda bebê, assassinados por Lord Voldemort. Ao fim da Primeira Guerra Bruxa, Harry foi morar com seus parentes trouxas, os Dursley, sem qualquer tipo de contato com o mundo bruxo até seus 11 anos, quando passou a receber cartas da Escola de Magia e Bruxaria de Hogwarts e Rúbeo Hagrid lhe contou que seus pais eram bruxos. A partir de então, Harry passou a aprender sobre sua história e o mundo bruxo. Ingressou em Hogwarts e logo foi selecionado para fazer parte da Grifinória, juntamente com Rony Weasley e Hermione Granger, que mais tarde tornariam-se seus melhores amigos.
+                
+                Na escola, tornou-se apanhador na equipe de Quadribol, sendo o mais jovem a ocupar a posição em mais de 100 anos de história. Com a ajuda de seus amigos, enfrentou diversos desafios durante a adolescência, vários deles contra Lord Voldemort, como por exemplo impedindo o vilão de possuir a Pedra Filosofal, logo no primeiro ano.<a href="https://harrypotter.fandom.com/pt-br/wiki/Harry_Potter" target="blank">Descubra mais sobre: </a> </p>
+        </article>
+    </section>
+    <!-- representa o rodapé do conteúdo ou parte dele. Ele é aceito dentro de vários elementos, como article e boby. Ex: informações de autor e links relacionados.-->
+    <footer>
+
+    </footer>
+    
+</body>
+</html>

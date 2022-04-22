@@ -1,0 +1,59 @@
+
+body{
+    /* utilizamos para mudar a cor de fundo da página */ 
+    background: gray;
+    /*Utlizado para alterar a fonte do texto. */
+    font-family: verdana;
+    /*Serve para altera a  largura máxima */
+    max-width:900px;
+    /*serve para colocar espaçamento de um lado e do outro.   */
+    margin:auto;
+}
+.photo{
+    border-radius:50%;
+}
+ /* utilizamos para alterar a cor de cada título*/ 
+#title, .subtitle, .post_title{
+    color: black;
+}
+#title{
+    /*Utilizado para alterar o tamano do texto*/
+    font-size: 35px;
+}
+/*Alteração da cor do link*/
+a{
+    color:cadetblue;
+}
+ /*utilizamos para alterar o tanmanho da fonte do h3 e o tipo de fonte para itálico*/ 
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+     /* Utilizamos para o lado esquerdo*/ 
+    margin:0;
+     /* utilizamos para colocar na margem inferior*/ 
+    margin-bottom: 15px;
+}
+ /* Utilizamos para alterar a cor de fundo do conteúdo*/ 
+.post{
+    background: white;
+     /* utlizamos para alterar o espaçamento entre o conteúdo e a borda*/ 
+    padding: 15px;
+     /* utilizamos para alterar a borda/ 3px de largura, sólida,na cor preta*/ 
+    border: 3px solid black;
+     /* utilizamos para alterar o espaçamento entre elementos */ 
+    margin-bottom: 15px;
+    /*Utilizado para arredondar os cantos de um elemento */
+    border-radius: 5px;
+}
+.post_content{
+    margin:0;
+    margin-bottom: 15px;
+    /* text-transform alterna o texto entre maiúsculo e minúsculo. O valor capitalize- coloca todas as primeiras letras de cada palavra em letra maiúscula.*/
+    text-transform: capitalize;
+    /* text-align serve para alinhar o texto. O valor justify serve para deixar o texto justificado. */
+    text-align:justify;
+}
+.post_image{
+    margin-bottom: 15px;
+    width: 100%;
+}
